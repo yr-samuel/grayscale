@@ -1,0 +1,42 @@
+.section-pre-middle{
+    background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    background-size: 100%;
+    width: 100%;
+}
+
+.section-pre-middle > .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-pre-middle > .container img{
+    width: 100%;
+    height: auto;
+}
+
+.section-pre-middle > .container > .container-text{
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+
+.section-pre-middle > .container > .container-text div{
+    margin-bottom: 50px;
+}
+
+.section-pre-middle > .container > .container-text h2{
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.section-pre-middle > .container > .container-text span{
+    color: #999999;
+}
+
+.section-pre-middle > .container > .container-text span a{
+    color: #38b7c7;
+    font-weight: bold;
+    text-decoration: none;
+}

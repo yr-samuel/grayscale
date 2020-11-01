@@ -1,0 +1,96 @@
+.section-home {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0.7) 75%, #000000 100%),
+    url("../img/bg-masthead.jpg");
+    background-size: 100%;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-home > .container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40%;
+}
+
+.section-home > .container div{
+    margin-top: 20px;
+}
+
+.section-home > .container  h2{
+    background: -webkit-linear-gradient(white, #999999, #777777);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3em;
+}
+
+.section-home > .container .text{
+    background: -webkit-linear-gradient(#777777, white, #777777);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-home > .container div button{
+    padding: 10px 20px;
+    background-color: #64A19D;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+@media(max-width: 599px){
+    .section-home {
+        background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0.7) 75%, #000000 100%),
+        url("../img/bg-masthead.jpg");
+        background-size: 100%;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .section-home > .container{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 10%;
+    }
+    
+    .section-home > .container div{
+        margin-top: 20px;
+    }
+    
+    .section-home > .container  h2{
+        background: -webkit-linear-gradient(white, #999999, #777777);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.5em;
+    }
+    
+    .section-home > .container .text{
+        background: -webkit-linear-gradient(#777777, white, #777777);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .section-home > .container div button{
+        padding: 5px 10px;
+        background-color: #64A19D;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+    }
+
+    
+}

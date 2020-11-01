@@ -1,0 +1,206 @@
+.section-content{
+    height: auto;
+    margin-bottom: 8%;
+}
+
+.section-content > .container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.section-content > .container > .shoreline{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-content > .container > .shoreline .bg-text{
+    height: 40%;
+    width: 30%;
+    border-left: 5px solid #64A19D;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    top: 125px;
+    padding-left: 20px;
+    
+}
+.section-content > .container > .shoreline .bg-text span{
+    padding-top: 20px;
+}
+
+.section-content > .container > .shoreline img{
+    width: 50%;
+    height: auto;
+}
+
+.section-content > .container > .mountain-misty{
+    height: 30%;
+    width: 70%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-content > .container > .mountain-misty > .mountain{
+    color: white;
+    background-color: #161616;
+    display: flex;
+}
+
+.section-content > .container > .mountain-misty > .mountain div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.section-content > .container > .mountain-misty > .mountain div > h4{
+    margin-bottom: 20px;
+}
+
+.section-content > .container > .mountain-misty > .mountain img{
+    width: 50%;
+    height: auto;
+}
+
+
+.section-content > .container > .mountain-misty > .misty{
+    background-color: #161616;
+    color: white;
+    display: flex;  
+}
+
+.section-content > .container > .mountain-misty > .misty div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    text-align: right;
+}
+
+.section-content > .container > .mountain-misty > .misty div > h4{
+    margin-bottom: 20px;
+}
+
+.section-content > .container > .mountain-misty > .misty img{
+    width: 50%;
+    height: auto;
+}
+
+.hr{
+    width: 150px;
+    height: 5px;
+    border-color:  #64A19D;
+    background-color:  #64A19D;
+    margin-top: 15px;
+}
+
+.hr.left{
+    position: relative;
+    left: 133px;
+}
+
+
+@media(max-width: 599px){
+    .section-content > .container > .shoreline{
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .section-content > .container > .shoreline .bg-text{
+        height: 0px;
+        width: 100%;
+        display: flex;
+        border: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        
+    }
+    .section-content > .container > .shoreline img{
+        width: 100%;
+        height: auto;
+        border-bottom: 5px solid #64A19D;
+    }
+
+    .section-content > .container > .shoreline >.bg-text > span{
+        padding: 0;
+    }
+    
+
+
+    .section-content > .container > .mountain-misty{
+        width: 80%;
+        margin-top: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .section-content > .container > .mountain-misty > .mountain{
+        color: white;
+        background-color: #161616;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section-content > .container > .mountain-misty > .mountain div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px;
+    }
+    
+    .section-content > .container > .mountain-misty > .mountain div > h4{
+        margin-bottom: 20px;
+    }
+    
+    .section-content > .container > .mountain-misty > .mountain img{
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .section-content > .container > .mountain-misty > .misty{
+        background-color: #161616;
+        color: white;
+        display: flex;  
+        flex-direction: column;
+    }
+    
+    .section-content > .container > .mountain-misty > .misty div{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px;
+        text-align: left;
+    }
+    
+    .section-content > .container > .mountain-misty > .misty div > h4{
+        margin-bottom: 20px;
+    }
+    
+    .section-content > .container > .mountain-misty > .misty img{
+        width: 100%;
+        height: auto;
+        order: -1;
+    }
+
+    .hr.left{
+        position: relative;
+        left: 0;
+    }
+
+}

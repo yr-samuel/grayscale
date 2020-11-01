@@ -1,0 +1,144 @@
+.section-sub {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0.7) 75%, #000000 100%),
+    url("../img/bg-signup.jpg");
+    background-size: 100%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+}
+
+.section-sub > .container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-sub > .container > .container-icon-text{
+   padding: 100px 0 30px;
+   color:white;
+}
+
+.section-sub > .container input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+
+}
+
+.section-sub > .container input::placeholder{
+    font-weight: bold;
+}
+
+.section-sub > .container button{
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: #64A19D;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    
+}
+
+.section-sub > .container .info{
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section-sub > .container > .info > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    background-color: white;
+    margin: 0 20px;
+    padding: 40px 0;
+    border-radius: 5px;
+}
+
+.section-sub > .container > .info > div p{
+    font-size: .7em;
+    margin-top: 10px;
+}
+
+
+.section-sub > .container .info div h4{
+    margin-top: 10px;
+}
+
+.section-sub > .container .container-social{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.section-sub > .container .container-social i {
+    color: white;
+    padding:0 20px ;
+}
+
+
+i{
+    color: #64A19D;
+    font-size: 20px;
+}
+
+.i-prin{
+    color: white;
+}
+
+.hr-info{ 
+    margin: 10px 0 10px 0;
+    width: 100px;
+    height: 5px;
+    background-color: #64A19D;
+}
+
+@media(max-width: 599px){
+
+    .section-sub > .container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-sub > .container .info{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .section-sub > .container > .info > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: auto;
+        background-color: white;
+        margin: 10px 0;
+        padding: 20px 0;
+        border-radius: 5px;
+    }
+
+    .section-sub > .container .container-social{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        
+    }
+
+    .section-sub > .container input{
+        margin-bottom: 10px;
+    }
+}
+

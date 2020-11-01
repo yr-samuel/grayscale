@@ -1,0 +1,41 @@
+.nav-all{
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 auto;
+    height: 80px;
+    color: white;
+    background-color: transparent;
+}
+
+.nav-all > .container{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0 15px;
+}
+
+.nav-all > .container h1{
+    font-size: 1em;
+}
+
+
+.nav-all > .container > .nav-menu span{
+    margin: 0 0 0 15px;
+    font-size: .9em;
+    font-weight: 700;
+   
+}
+
+@media(max-width: 599px){
+    .nav-all{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .nav-all > .container{
+        font-size: .6em;
+        display: flex;
+        flex-direction: column;
+    }
+}
