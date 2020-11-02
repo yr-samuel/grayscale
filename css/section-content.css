@@ -83,8 +83,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px;
+    align-items: flex-end;
     text-align: right;
+    padding: 50px;
+   
 }
 
 .section-content > .container > .mountain-misty > .misty div > h4{
@@ -104,10 +106,10 @@
     margin-top: 15px;
 }
 
-.hr.left{
+/* .hr.left{
     position: relative;
     left: 173px;
-}
+} */
 
 
 @media(max-width: 599px){
@@ -177,6 +179,7 @@
         color: white;
         display: flex;  
         flex-direction: column;
+        align-items: flex-end;
     }
     
     .section-content > .container > .mountain-misty > .misty div{
