@@ -106,10 +106,7 @@
     margin-top: 15px;
 }
 
-/* .hr.left{
-    position: relative;
-    left: 173px;
-} */
+
 
 
 @media(max-width: 599px){
@@ -188,7 +185,7 @@
         flex-direction: column;
         justify-content: center;
         padding: 50px;
-        text-align: left;
+        text-align: right;
     }
     
     .section-content > .container > .mountain-misty > .misty div > h4{
@@ -201,9 +198,5 @@
         order: -1;
     }
 
-    .hr.left{
-        position: relative;
-        left: 0;
-    }
 
 }
